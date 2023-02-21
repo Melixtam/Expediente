@@ -1,0 +1,50 @@
+//en este código podremos ver como se hace un programa para un expediente que solicite ciertas características del usuario y nos "bote" una lista con estas.
+package expediente_2;
+
+import java.util.Scanner;
+
+public class Expediente_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Inicio de programa Expediente que genere nombre, apellido, apodo, dirección, altura, peso y puesto de trabajo
+		Scanner teclado = new Scanner(System.in);
+		
+		//Definimos las clases que usaremos
+		String nom,ape,apo,dir,alt,peso,puesto;
+
+		//Inicio del código para ejecutar
+		System.out.println("Ingrese su nombre");
+		nom = teclado.nextLine();
+
+		System.out.println("Ingrese su apellido");
+		ape = teclado.nextLine();
+
+		System.out.println("Ingrese su apodo");
+		apo = teclado.nextLine();
+
+		System.out.println("Ingrese su dirección");
+		dir = teclado.nextLine();
+
+		System.out.println("Ingresa tu altura");
+		alt = teclado.nextLine();
+
+		System.out.println("Ingresa tu peso");
+		peso = teclado.nextLine();
+
+		System.out.println("Ingresa tu puesto de trabajo");
+		puesto = teclado.nextLine();
+		// fin del código para ejecutar el Expediente
+		
+		//salida del código en el formato solicitado
+		System.out.println(" " + nom + " " + ape);
+		System.out.println(" " + apo);
+		System.out.println(" " + dir);
+		System.out.println(" " + alt);
+		System.out.println(" " + peso);
+		System.out.println(" " + puesto);
+		//fin de la salida del código
+	}
+
+}
